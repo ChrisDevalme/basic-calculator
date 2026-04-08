@@ -16,5 +16,6 @@ public class BasicCalculator {
         String selection = myScanner.nextLine();
 
         System.out.println("Your numbers multiplied equals: " + (num1 * num2));
+        myScanner.close();
     }
 }
